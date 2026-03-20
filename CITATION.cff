@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use or reference this framework, please cite it as below."
+authors:
+  - family-names: "Tran"
+    given-names: "Tuyen"
+    orcid: "https://orcid.org/0009-0003-2682-4578"
+title: "Epistemic Drift: A Taxonomy of AI-Induced Failures in Scientific Reasoning"
+version: 1.0.0
+date-released: 2026-03-20
+url: "https://github.com/tuyentran-md/epistemic-drift"
+license: CC-BY-4.0
+type: dataset
+keywords:
+  - epistemic drift
+  - AI in research
+  - meta-research
+  - scientific integrity
+  - philosophy of science
