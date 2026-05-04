@@ -1,0 +1,19 @@
+[load_data] AI from ai_abstracts__gemma3_12b.csv (360 rows), human (120 rows)
+Loaded 360 AI + 120 human abstracts across 12 topics (model: gemma3:12b)
+[M2] Extracting effect estimates from 360 ai abstracts...
+[M2] Extracting effect estimates from 120 human abstracts...
+[M2] Saved → m2_cv__gemma3_12b.csv
+[M3] Computing TF-IDF cosine dispersion...
+[M3] Saved → m3_dispersion__gemma3_12b.csv
+[M1+M5] Rating ai abstracts via dual-rater 50/50 (deepseek/deepseek-chat-v3.1 + anthropic/claude-sonnet-4.5)
+        already done: 341/360
+Rate ai:   0%|          | 0/360 [00:00<?, ?it/s]Rate ai:  95%|█████████▌| 342/360 [00:03<00:00, 112.94it/s]Rate ai:  95%|█████████▌| 342/360 [00:20<00:00, 112.94it/s]Rate ai:  96%|█████████▌| 346/360 [00:29<00:01,  8.53it/s] Rate ai:  96%|█████████▋| 347/360 [00:32<00:01,  7.42it/s]Rate ai:  96%|█████████▋| 347/360 [00:50<00:01,  7.42it/s]Rate ai:  98%|█████████▊| 352/360 [00:53<00:02,  3.39it/s]Rate ai:  98%|█████████▊| 353/360 [01:07<00:03,  2.22it/s]Rate ai:  98%|█████████▊| 354/360 [01:11<00:03,  1.97it/s]Rate ai:  99%|█████████▉| 357/360 [01:19<00:01,  1.54it/s]Rate ai:  99%|█████████▉| 357/360 [01:30<00:01,  1.54it/s]Rate ai:  99%|█████████▉| 358/360 [01:44<00:02,  1.36s/it]Rate ai: 100%|█████████▉| 359/360 [01:46<00:01,  1.39s/it]Rate ai: 100%|██████████| 360/360 [01:49<00:00,  3.30it/s]
+[M1+M5] Rating human abstracts via dual-rater 50/50 (deepseek/deepseek-chat-v3.1 + anthropic/claude-sonnet-4.5)
+        already done: 120/120
+Rate human:   0%|          | 0/120 [00:00<?, ?it/s]Rate human: 100%|██████████| 120/120 [00:00<00:00, 32849.27it/s]
+[M1+M5] Saved raw rater output → rater_raw__gemma3_12b.csv
+[M1+M4] Saved → m1_m4_entropy_divergence__gemma3_12b.csv
+[M5] Saved → m5_validity__gemma3_12b.csv
+
+=== ALL METRICS COMPLETE ===
+Next: python 05_analysis/analyze.py

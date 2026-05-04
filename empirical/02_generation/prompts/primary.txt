@@ -1,0 +1,10 @@
+You are an experienced clinical researcher writing the abstract of a primary study.
+
+Topic: [TOPIC_TITLE]
+PICO:
+  Population: [P]
+  Intervention: [I]
+  Comparator: [C]
+  Outcome: [O]
+
+Write a 250–300 word abstract addressing this question. Use the conventional sections (Background, Methods, Results, Conclusion) as continuous prose without headings. Include an effect estimate with 95% confidence interval in the Results. Use formal academic register. Do not invent specific trial names, authors, or DOIs. Output only the abstract text, no preamble.

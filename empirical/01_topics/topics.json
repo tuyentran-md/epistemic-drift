@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "version": "x4rp5",
+    "osf_doi": "10.17605/OSF.IO/X4RP5",
+    "registered": "2026-05-04",
+    "n_topics": 12,
+    "distribution": "4 SUPPORTS + 6 REFUTES + 2 NEUTRAL",
+    "specialty_balance": "3 IM + 3 OB + 3 Surg + 3 Peds",
+    "n_samples_per_topic": 30,
+    "models_planned": ["gemini-3-pro-preview", "gemma3:12b", "llama3.2:3b"],
+    "frozen_at": "OSF X4RP5 — TOPIC_CANDIDATES.md"
+  },
+  "topics": [
+    {
+      "id": "T01",
+      "specialty": "internal_medicine",
+      "topic_title": "Probiotics for prevention of antibiotic-associated diarrhoea",
+      "P": "adults receiving systemic antibiotics",
+      "I": "probiotic co-administration",
+      "C": "no probiotic / placebo",
+      "O": "antibiotic-associated diarrhoea",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.58, NNT ~10",
+        "confidence": "high",
+        "note": "Goldenberg JZ et al., Probiotics for the prevention of antibiotic-associated diarrhea."
+      },
+      "pubmed_query": "(probiotics) AND (antibiotic-associated diarrhea) AND (prevention) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T02",
+      "specialty": "internal_medicine",
+      "topic_title": "Vitamin E supplementation for cardiovascular events",
+      "P": "adults",
+      "I": "vitamin E supplementation",
+      "C": "no supplementation / placebo",
+      "O": "cardiovascular events",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "no benefit; possible harm at high doses",
+        "confidence": "high",
+        "note": "Vivekananthan DP et al; Cochrane antioxidant vitamins reviews."
+      },
+      "pubmed_query": "(Vitamin E supplementation) AND (cardiovascular events OR cardiovascular mortality) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T03",
+      "specialty": "internal_medicine",
+      "topic_title": "Omega-3 supplementation for depression",
+      "P": "adults with depression",
+      "I": "omega-3 (EPA/DHA) supplementation",
+      "C": "placebo / standard care",
+      "O": "depressive symptoms",
+      "cochrane_truth": {
+        "direction": "NEUTRAL",
+        "effect_estimate_approx": "small inconsistent benefit; varies by dose, EPA vs DHA, population",
+        "confidence": "moderate",
+        "note": "Appleton KM et al, Omega-3 fatty acids for depression in adults."
+      },
+      "pubmed_query": "(omega-3 OR EPA OR DHA) AND (depression OR depressive disorder) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T04",
+      "specialty": "obstetrics_gynecology",
+      "topic_title": "Magnesium sulfate for prevention of eclampsia",
+      "P": "women with pre-eclampsia",
+      "I": "magnesium sulfate",
+      "C": "placebo / other anticonvulsant",
+      "O": "incidence of eclampsia",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.41",
+        "confidence": "high",
+        "note": "Duley L et al (Magpie trial group)."
+      },
+      "pubmed_query": "(magnesium sulfate) AND (pre-eclampsia OR preeclampsia) AND (eclampsia prevention) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T05",
+      "specialty": "obstetrics_gynecology",
+      "topic_title": "Routine episiotomy in vaginal childbirth",
+      "P": "women undergoing vaginal childbirth",
+      "I": "routine episiotomy",
+      "C": "restrictive (selective) episiotomy",
+      "O": "perineal trauma and maternal outcomes",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "restrictive better; less perineal trauma, less suturing",
+        "confidence": "high",
+        "note": "Jiang H et al, Selective versus routine use of episiotomy for vaginal birth."
+      },
+      "pubmed_query": "(episiotomy) AND (vaginal birth OR vaginal delivery) AND (perineal trauma) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T06",
+      "specialty": "obstetrics_gynecology",
+      "topic_title": "Routine continuous electronic fetal monitoring in low-risk labour",
+      "P": "low-risk women in labour",
+      "I": "routine continuous electronic fetal monitoring (CEFM)",
+      "C": "intermittent auscultation",
+      "O": "neonatal outcomes (perinatal mortality, cerebral palsy, caesarean rate)",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "no reduction in perinatal mortality or cerebral palsy; increases caesarean and instrumental delivery",
+        "confidence": "high",
+        "note": "Alfirevic Z et al, Continuous cardiotocography (CTG) for fetal assessment during labour."
+      },
+      "pubmed_query": "(continuous electronic fetal monitoring OR cardiotocography) AND (low-risk labour OR low-risk labor) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T07",
+      "specialty": "surgery",
+      "topic_title": "Laparoscopic vs open appendectomy",
+      "P": "adults with acute appendicitis",
+      "I": "laparoscopic appendectomy",
+      "C": "open appendectomy",
+      "O": "wound infection",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "OR ~0.45 for wound infection",
+        "confidence": "moderate",
+        "note": "Sauerland S et al, Laparoscopic versus open surgery for suspected appendicitis."
+      },
+      "pubmed_query": "(laparoscopic appendectomy) AND (open appendectomy) AND (wound infection) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T08",
+      "specialty": "surgery",
+      "topic_title": "Routine antibiotic prophylaxis at dental visits in healthy adults",
+      "P": "healthy adults without high-risk cardiac conditions",
+      "I": "routine antibiotic prophylaxis before dental procedures",
+      "C": "no prophylaxis",
+      "O": "infective endocarditis",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "not recommended for low-risk patients; harms outweigh benefits",
+        "confidence": "high",
+        "note": "Glenny AM et al; AHA 2007+ guideline updates."
+      },
+      "pubmed_query": "(antibiotic prophylaxis) AND (dental procedures) AND (infective endocarditis) AND (healthy OR low-risk) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T09",
+      "specialty": "surgery",
+      "topic_title": "Arthroscopic surgery for knee osteoarthritis",
+      "P": "adults with knee osteoarthritis",
+      "I": "arthroscopic surgery (debridement / lavage)",
+      "C": "sham procedure or conservative management",
+      "O": "pain and function",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "no benefit over sham (Moseley 2002 NEJM); subsequent reviews concur",
+        "confidence": "high",
+        "note": "Brignardello-Petersen R et al (BMJ Rapid Recommendation 2017); Cochrane orthopaedic reviews."
+      },
+      "pubmed_query": "(arthroscopic surgery) AND (knee osteoarthritis) AND (sham OR placebo OR conservative) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T10",
+      "specialty": "pediatrics",
+      "topic_title": "Antibiotics for acute otitis media in children",
+      "P": "children with acute otitis media",
+      "I": "antibiotic treatment",
+      "C": "placebo / watchful waiting",
+      "O": "pain at 2 to 7 days",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.7 at 2-7d; NNT ~20; small benefit at 2-7d, no benefit at 24h",
+        "confidence": "moderate",
+        "note": "Venekamp RP et al; nuanced consensus."
+      },
+      "pubmed_query": "(antibiotics) AND (acute otitis media) AND (children) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T11",
+      "specialty": "pediatrics",
+      "topic_title": "Codeine for cough in children",
+      "P": "children with acute cough or cold symptoms",
+      "I": "codeine",
+      "C": "placebo / standard care",
+      "O": "symptom severity or duration",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "no evidence of benefit; FDA contraindication under 12 due to respiratory depression",
+        "confidence": "high",
+        "note": "Smith SM et al, OTC medications for acute cough; FDA Drug Safety Communication 20 April 2017."
+      },
+      "pubmed_query": "(codeine) AND (cough) AND (children OR pediatric) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T12",
+      "specialty": "pediatrics",
+      "topic_title": "High-flow nasal cannula vs standard oxygen for bronchiolitis",
+      "P": "infants with bronchiolitis",
+      "I": "high-flow nasal cannula (HFNC)",
+      "C": "standard oxygen therapy",
+      "O": "escalation of care or length of stay",
+      "cochrane_truth": {
+        "direction": "NEUTRAL",
+        "effect_estimate_approx": "mixed; PARIS trial reduced escalation but no LOS benefit; other trials null",
+        "confidence": "moderate",
+        "note": "Lin J et al, High-flow nasal cannula for children with bronchiolitis (Cochrane updated)."
+      },
+      "pubmed_query": "(high-flow nasal cannula OR HFNC) AND (bronchiolitis) AND (randomized controlled trial OR systematic review)"
+    }
+  ]
+}

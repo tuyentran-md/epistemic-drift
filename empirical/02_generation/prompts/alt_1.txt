@@ -1,0 +1,10 @@
+Summarise the current evidence for the following clinical question in the form of a 250–300 word abstract.
+
+Question: [TOPIC_TITLE]
+PICO:
+  Population: [P]
+  Intervention: [I]
+  Comparator: [C]
+  Outcome: [O]
+
+Write the summary as continuous prose covering the rationale, methods of the underlying evidence base, results (with effect estimate and 95% confidence interval), and a conclusion suitable for a clinical reader. No headings. Formal academic register. Do not invent specific trial names, authors, or DOIs. Output only the summary text, no preamble.

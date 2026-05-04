@@ -2,9 +2,14 @@
 
 **When AI assists scientific research, it doesn't just speed things up — it silently changes the reasoning chain itself.**
 
-This repository is a companion to the submitted paper:
+This repository contains:
 
-> Tran T. *"Artificial Intelligence and the Epistemic Drift of Scientific Research."* (Under review)
+1. **Theoretical framework** (this README + `taxonomy/` + `examples/`) — companion to the submitted paper:
+   > Tran T. *"Artificial Intelligence and the Epistemic Drift of Scientific Research."* (Under review at *Accountability in Research*)
+
+2. **Empirical study** ([`empirical/`](empirical/)) — preregistered evaluation of LLM drift on Cochrane-anchored medical abstracts:
+   > Tran T. *"Structural validity and truth-direction fidelity of LLM-generated medical abstracts across model scales: a preregistered evaluation."* (Data collection in progress)
+   > **OSF preregistration:** [https://doi.org/10.17605/OSF.IO/X4RP5](https://doi.org/10.17605/OSF.IO/X4RP5)
 
 ---
 
@@ -105,8 +110,14 @@ epistemic-drift/
 ├── examples/
 │   ├── case_study_1.md       # Clinical research scenario
 │   └── case_study_2.md       # Systematic review scenario
-├── diagrams/
-│   └── drift_taxonomy.svg    # Visual taxonomy
+├── empirical/                # Preregistered empirical study (OSF X4RP5)
+│   ├── README.md             # Run instructions, layout, hypotheses
+│   ├── 01_topics/            # 12 Cochrane-anchored topics
+│   ├── 02_generation/        # Generation pipeline + 4 frozen prompts
+│   ├── 04_metrics/           # Rating + dispersion + entropy
+│   ├── 05_analysis/          # Confirmatory + exploratory analyses
+│   ├── helpers/              # Validation, retest, audits
+│   └── pilot_2026-05-03/     # Pilot data (NOT used in confirmatory analysis)
 └── CITATION.cff              # How to cite this work
 ```
 

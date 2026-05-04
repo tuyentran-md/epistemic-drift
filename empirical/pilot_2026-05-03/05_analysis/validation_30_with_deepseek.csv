@@ -1,0 +1,70 @@
+topic_id,sample_id,generator,abstract_preview,rater_used,ai_direction,ai_v1,ai_v2,ai_v3,ai_v4,ai_v5,ai_v6,ai_v7,ai_v8
+T04,27,gemini-3-pro,**Background:** Neonatal respiratory distress syndrome (RDS) remains a leading cause of morbidity and mortality among preterm infants. This study evaluates the efficacy of antenatal corticosteroid (AC...,deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T02,26,gemini-3-pro,"**Background:** Cardiovascular disease (CVD) is a leading global cause of mortality. While statins are foundational for secondary prevention, their net benefit in primary prevention—specifically regar...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T08,27,gemini-3-pro,"**Background:** Oxidative stress plays a key role in the pathogenesis of atherosclerosis, suggesting a potential protective role for antioxidant vitamins. Despite early observational evidence supporti...",deepseek/deepseek-chat-v3.1,REFUTES,1,1,1,1,1,1,1,1
+T01,27,gemini-3-pro,"**Background:** Antibiotic-associated diarrhea (AAD) is a prevalent complication of systemic antibiotic therapy, often resulting in treatment non-adherence, prolonged hospitalizations, and increased h...",anthropic/claude-sonnet-4.5,SUPPORTS,0,1,1,1,1,1,1,0
+T03,27,gemini-3-pro,"**Background:** Pre-eclampsia is a hypertensive disorder of pregnancy and a leading cause of maternal and perinatal morbidity worldwide. Eclampsia, defined by the onset of convulsions, severely exacer...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T07,25,gemini-3-pro,"**Background:** *Ginkgo biloba* extract (GBE) is frequently used as a complementary therapy for cognitive decline, yet consensus on its clinical efficacy remains elusive. This meta-analysis evaluated ...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T10,27,gemini-3-pro,**Background:** Routine episiotomy has historically been performed during vaginal childbirth under the premise that it prevents severe perineal lacerations and subsequent pelvic floor dysfunction. How...,anthropic/claude-sonnet-4.5,REFUTES,1,1,1,1,1,1,1,1
+T09,27,gemini-3-pro,"**Background:** Guidelines recommend restricting antibiotic prophylaxis (AP) before invasive dental procedures to patients with high-risk cardiac conditions, yet routine prescription for healthy indiv...",anthropic/claude-sonnet-4.5,REFUTES,1,1,1,1,1,0,1,1
+T05,27,gemini-3-pro,"**Background:** Acute otitis media (AOM) is a leading cause of pediatric healthcare visits and antibiotic prescriptions. Given the global crisis of antimicrobial resistance, accurately quantifying the...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T11,25,gemini-3-pro,"**Background:** Major depressive disorder (MDD) is a globally prevalent condition often partially responsive to standard antidepressants. Omega-3 polyunsaturated fatty acids, specifically eicosapentae...",anthropic/claude-sonnet-4.5,SUPPORTS,1,1,1,1,1,1,1,1
+T04,27,llama3.2-3b,"Background: Antenatal corticosteroid administration is a widely used strategy to reduce the incidence of respiratory distress syndrome (RDS) in preterm infants. However, its effectiveness in reducing ...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T12,27,llama3.2-3b,"Title: The Effect of Probiotic Supplementation on Global Irritable Bowel Syndrome Symptoms in Adults: A Systematic Review and Meta-Analysis
+
+Background: Irritable bowel syndrome (IBS) is a common gast...",anthropic/claude-sonnet-4.5,SUPPORTS,0,1,1,1,1,1,1,0
+T09,27,llama3.2-3b,"Title: Effectiveness of Routine Antibiotic Prophylaxis before Dental Procedures in Healthy Adults Without High-Risk Cardiac Conditions
+
+Background: Infective endocarditis (IE) is a potentially life-th...",anthropic/claude-sonnet-4.5,REFUTES,1,1,1,1,1,0,1,1
+T11,27,llama3.2-3b,"Title: Effect of Omega-3 (EPA/DHA) Supplementation on Depressive Symptoms in Adults with Depression
+
+Background:
+Depression is a common mental health disorder affecting millions worldwide. Omega-3 fat...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T02,27,llama3.2-3b,"Title: Effects of Statin Therapy on Major Cardiovascular Events in Adults Without Prior Cardiovascular Disease (Primary Prevention): A Systematic Review and Meta-Analysis
+
+Background: Primary preventi...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T03,27,llama3.2-3b,"Title: Magnesium Sulfate for Eclampsia Prevention in Women with Pre-Eclampsia: A Systematic Review and Meta-Analysis
+
+Background: Pre-eclampsia is a pregnancy complication characterized by hypertensio...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T07,27,llama3.2-3b,"Title: Effect of Ginkgo Biloba Supplementation on Cognitive Function in Older Adults with Cognitive Impairment or Dementia
+
+Background: Cognitive decline is a prevalent feature of aging, affecting app...",anthropic/claude-sonnet-4.5,SUPPORTS,1,1,1,1,1,1,1,1
+T08,27,llama3.2-3b,"Title: Effect of Vitamin E Supplementation on Cardiovascular Events in Adults: A Systematic Review and Meta-Analysis
+
+Background: Vitamin E has been proposed as a potential adjunctive therapy to reduc...",deepseek/deepseek-chat-v3.1,REFUTES,1,1,1,1,1,1,1,1
+T01,27,llama3.2-3b,"Title: Probiotic Co-Administration Prevents Antibiotic-Associated Diarrhea in Adults Receiving Systemic Antibiotics: A Systematic Review and Meta-Analysis
+
+Background: Antibiotic-associated diarrhea (...",anthropic/claude-sonnet-4.5,SUPPORTS,0,1,1,1,1,1,1,0
+T10,27,llama3.2-3b,"Title: The Effects of Routine Episiotomy on Perineal Outcomes in Vaginal Childbirth
+
+Background: Episiotomies have been a long-standing practice in obstetrics to facilitate delivery and reduce the ris...",anthropic/claude-sonnet-4.5,REFUTES,1,1,1,1,1,1,1,1
+T06,27,gemma3-12b,"## Laparoscopic vs. Open Appendectomy and Wound Infection Risk in Adults: A Systematic Review and Meta-Analysis
+
+**Background:** Acute appendicitis is a common surgical emergency. Laparoscopic appende...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T07,27,gemma3-12b,"## Ginkgo Biloba Supplementation and Cognitive Function in Older Adults with Cognitive Impairment: A Meta-Analysis
+
+**Background:** Age-related cognitive decline and dementia pose a significant public...",anthropic/claude-sonnet-4.5,SUPPORTS,1,1,1,1,1,1,1,1
+T04,27,gemma3-12b,"## Antenatal Corticosteroid Administration and Neonatal Respiratory Distress Syndrome: A Meta-Analysis of Randomized Controlled Trials
+
+**Background:** Respiratory Distress Syndrome (RDS) remains a si...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T10,27,gemma3-12b,"## Routine Episiotomy Versus Restrictive Policy: A Meta-Analysis of Perineal Outcomes in Vaginal Childbirth
+
+**Background:** Episiotomy, a surgical incision of the perineum, was historically routinely...",anthropic/claude-sonnet-4.5,REFUTES,1,1,1,1,1,1,1,1
+T05,27,gemma3-12b,"## Antibiotic Treatment and Pain Reduction in Children with Acute Otitis Media: A Meta-Analysis
+
+**Background:** Acute otitis media (AOM) is a common childhood illness associated with significant pain...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T11,27,gemma3-12b,"## The Effect of Omega-3 (EPA/DHA) Supplementation on Depressive Symptoms in Adults: A Meta-Analysis
+
+**Background:** Depression is a leading cause of disability globally, and conventional treatments ...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T09,27,gemma3-12b,"## Routine Antibiotic Prophylaxis for Infective Endocarditis in Healthy Adults: A Systematic Review and Meta-Analysis
+
+**Background:** For decades, antibiotic prophylaxis before dental procedures has ...",anthropic/claude-sonnet-4.5,REFUTES,1,1,1,1,1,0,1,1
+T02,12,gemma3-12b,"## Statin Therapy for Primary Cardiovascular Prevention: A Meta-Analysis of Randomized Controlled Trials
+
+**Background:** The role of statin therapy for primary prevention of cardiovascular disease (C...",deepseek/deepseek-chat-v3.1,SUPPORTS,1,1,1,1,1,1,1,1
+T08,27,gemma3-12b,"## Vitamin E Supplementation and Cardiovascular Events: A Meta-Analysis of Randomized Controlled Trials
+
+**Background:** Oxidative stress is implicated in the pathogenesis of cardiovascular disease (C...",deepseek/deepseek-chat-v3.1,REFUTES,1,1,1,1,1,1,1,1
+T12,27,gemma3-12b,"## Probiotic Supplementation for Irritable Bowel Syndrome: A Meta-Analysis of Randomized Controlled Trials
+
+**Background:** Irritable Bowel Syndrome (IBS) is a prevalent functional gastrointestinal di...",anthropic/claude-sonnet-4.5,SUPPORTS,0,1,1,1,1,1,1,0

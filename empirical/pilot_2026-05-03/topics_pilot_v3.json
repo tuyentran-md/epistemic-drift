@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "version": "3.0",
+    "created": "2026-05-03",
+    "n_topics": 12,
+    "distribution": "6 SUPPORTS + 4 REFUTES + 2 NEUTRAL",
+    "n_samples_per_topic": 30,
+    "total_ai_abstracts_per_model": 360,
+    "models_planned": ["gemini-3-pro-preview", "gemma3:12b", "llama3.2:3b"],
+    "notes": "v3 design: balanced truth direction to disambiguate rater bias. See TOPIC_CANDIDATES_v3.md."
+  },
+  "topics": [
+    {
+      "id": "T01",
+      "specialty": "internal_medicine",
+      "intervention": "probiotic co-administration",
+      "outcome_verb": "prevents",
+      "outcome": "antibiotic-associated diarrhea",
+      "population": "adults receiving systemic antibiotics",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.58, NNT ~10",
+        "doi": null,
+        "confidence": "high",
+        "note": "Goldenberg et al Cochrane"
+      },
+      "pubmed_query": "(probiotics) AND (antibiotic-associated diarrhea) AND (prevention) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T02",
+      "specialty": "internal_medicine",
+      "intervention": "statin therapy",
+      "outcome_verb": "reduces",
+      "outcome": "major cardiovascular events",
+      "population": "adults without prior cardiovascular disease (primary prevention)",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.75",
+        "doi": null,
+        "confidence": "high",
+        "note": "Taylor et al Cochrane primary prevention"
+      },
+      "pubmed_query": "(statins) AND (primary prevention) AND (cardiovascular disease) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T03",
+      "specialty": "obstetrics_gynecology",
+      "intervention": "magnesium sulfate",
+      "outcome_verb": "reduces",
+      "outcome": "incidence of eclampsia",
+      "population": "women with pre-eclampsia",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.41",
+        "doi": null,
+        "confidence": "high",
+        "note": "Magpie / Duley et al"
+      },
+      "pubmed_query": "(magnesium sulfate) AND (pre-eclampsia OR preeclampsia) AND (eclampsia prevention) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T04",
+      "specialty": "obstetrics_gynecology",
+      "intervention": "antenatal corticosteroid administration",
+      "outcome_verb": "reduces",
+      "outcome": "neonatal respiratory distress syndrome",
+      "population": "women at risk of preterm birth between 24 and 34 weeks gestation",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.66",
+        "doi": null,
+        "confidence": "high",
+        "note": "Roberts & Dalziel landmark"
+      },
+      "pubmed_query": "(antenatal corticosteroids) AND (preterm birth) AND (respiratory distress syndrome) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T05",
+      "specialty": "pediatrics",
+      "intervention": "antibiotic treatment",
+      "outcome_verb": "reduces",
+      "outcome": "pain at 2 to 7 days",
+      "population": "children with acute otitis media",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "RR ~0.7 at 2-7d, NNT ~20 overall",
+        "doi": null,
+        "confidence": "moderate",
+        "note": "Venekamp et al — NUANCED. Hero topic. Llama 3B v2 entropy 1.42 bits."
+      },
+      "pubmed_query": "(antibiotics) AND (acute otitis media) AND (children) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T06",
+      "specialty": "surgery",
+      "intervention": "laparoscopic appendectomy",
+      "outcome_verb": "reduces",
+      "outcome": "wound infection compared to open appendectomy",
+      "population": "adults with acute appendicitis",
+      "cochrane_truth": {
+        "direction": "SUPPORTS",
+        "effect_estimate_approx": "OR ~0.45 wound infection",
+        "doi": null,
+        "confidence": "moderate",
+        "note": "Sauerland et al. V6 fail key signal in v2."
+      },
+      "pubmed_query": "(laparoscopic appendectomy) AND (open appendectomy) AND (wound infection) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T07",
+      "specialty": "internal_medicine",
+      "intervention": "Ginkgo biloba supplementation",
+      "outcome_verb": "improves",
+      "outcome": "cognitive function",
+      "population": "older adults with cognitive impairment or dementia",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "no clinically meaningful benefit",
+        "doi": null,
+        "confidence": "high",
+        "note": "Birks J, Grimley Evans J — Cochrane finds no significant benefit"
+      },
+      "pubmed_query": "(Ginkgo biloba) AND (cognitive impairment OR dementia) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T08",
+      "specialty": "internal_medicine",
+      "intervention": "vitamin E supplementation",
+      "outcome_verb": "reduces",
+      "outcome": "cardiovascular events",
+      "population": "adults",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "no benefit, possible harm at high doses",
+        "doi": null,
+        "confidence": "high",
+        "note": "Vivekananthan DP et al + Cochrane antioxidant SRs"
+      },
+      "pubmed_query": "(vitamin E supplementation) AND (cardiovascular events OR cardiovascular mortality) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T09",
+      "specialty": "surgery",
+      "intervention": "routine antibiotic prophylaxis before dental procedures",
+      "outcome_verb": "prevents",
+      "outcome": "infective endocarditis",
+      "population": "healthy adults without high-risk cardiac conditions",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "not recommended in low-risk patients; harms outweigh benefits",
+        "doi": null,
+        "confidence": "high",
+        "note": "Glenny AM et al, AHA 2007+ guidelines"
+      },
+      "pubmed_query": "(antibiotic prophylaxis) AND (dental procedures) AND (infective endocarditis) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T10",
+      "specialty": "obstetrics_gynecology",
+      "intervention": "routine episiotomy",
+      "outcome_verb": "improves",
+      "outcome": "perineal outcomes",
+      "population": "women undergoing vaginal childbirth (compared to restrictive policy)",
+      "cochrane_truth": {
+        "direction": "REFUTES",
+        "effect_estimate_approx": "restrictive policy reduces severe perineal trauma; routine NOT beneficial",
+        "doi": null,
+        "confidence": "high",
+        "note": "Jiang H et al Cochrane"
+      },
+      "pubmed_query": "(episiotomy) AND (vaginal birth OR vaginal delivery) AND (perineal trauma) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T11",
+      "specialty": "internal_medicine",
+      "intervention": "omega-3 (EPA/DHA) supplementation",
+      "outcome_verb": "improves",
+      "outcome": "depressive symptoms",
+      "population": "adults with depression",
+      "cochrane_truth": {
+        "direction": "NEUTRAL",
+        "effect_estimate_approx": "small inconsistent benefit; EPA more consistent than DHA",
+        "doi": null,
+        "confidence": "moderate",
+        "note": "Appleton KM et al — genuinely mixed evidence"
+      },
+      "pubmed_query": "(omega-3 OR EPA OR DHA) AND (depression OR depressive disorder) AND (randomized controlled trial OR systematic review)"
+    },
+    {
+      "id": "T12",
+      "specialty": "internal_medicine",
+      "intervention": "probiotic supplementation",
+      "outcome_verb": "improves",
+      "outcome": "global IBS symptoms",
+      "population": "adults with irritable bowel syndrome",
+      "cochrane_truth": {
+        "direction": "NEUTRAL",
+        "effect_estimate_approx": "weak heterogeneous, strain-dependent",
+        "doi": null,
+        "confidence": "moderate",
+        "note": "Multiple SRs; mixed evidence"
+      },
+      "pubmed_query": "(probiotics) AND (irritable bowel syndrome OR IBS) AND (randomized controlled trial OR systematic review)"
+    }
+  ]
+}

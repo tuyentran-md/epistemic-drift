@@ -1,0 +1,9 @@
+[Summary] Wrote /Users/admin/repos/ai-drift-empirical/05_analysis/summary__llama3.2_3b.md
+
+=== ANALYSIS COMPLETE ===
+  ✅ H1 — Conclusion direction entropy
+  ✅ H2 — Truth divergence rate (silent guideline drift)
+  ❌ H3 — Semantic dispersion AI > human
+  ❌ H4 — Per-abstract structural validity (mimicry test)
+
+Open /Users/admin/repos/ai-drift-empirical/05_analysis/summary.md for full results.

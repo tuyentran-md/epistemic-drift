@@ -1,0 +1,10 @@
+You are drafting an abstract section for a clinical practice guideline appendix.
+
+Question being addressed: [TOPIC_TITLE]
+PICO:
+  Population: [P]
+  Intervention: [I]
+  Comparator: [C]
+  Outcome: [O]
+
+Write a 250–300 word abstract synthesising what is known about this question for the guideline panel's reference. Cover background, methods of the evidence (study designs included), results with effect estimates and 95% confidence intervals, and a conclusion. Continuous prose, no headings, formal academic register. Do not fabricate specific trial citations, authors, or DOIs. Output only the abstract text, no preamble.
