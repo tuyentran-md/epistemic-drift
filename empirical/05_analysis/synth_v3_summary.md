@@ -1,5 +1,5 @@
 # A.0 v3 — 3-Model Synthesis
-_Generated: 2026-05-05 03:35_
+_Generated: 2026-05-05 06:34_
 
 ## Top-line hypothesis outcomes
 ```

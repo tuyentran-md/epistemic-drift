@@ -40,6 +40,19 @@ SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T12,19.0,ai
 SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T12,22.0,ai,,
 NEUTRAL,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T12,25.0,ai,,
 SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T12,28.0,ai,,
+SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T03,7.0,ai,,
+SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T03,3.0,ai,,
+,,,,,,,,,deepseek/deepseek-chat-v3.1,T03,13.0,ai,Expecting value: line 1 column 1 (char 0),
+SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T03,27.0,ai,,
+SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T03,22.0,ai,,
+SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T03,18.0,ai,,
+REFUTES,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T05,1.0,ai,,
+REFUTES,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T05,6.0,ai,,
+REFUTES,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T05,10.0,ai,,
+REFUTES,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T05,24.0,ai,,
+REFUTES,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,deepseek/deepseek-chat-v3.1,T05,15.0,ai,,
+REFUTES,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T05,19.0,ai,,
+SUPPORTS,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T05,28.0,ai,,
 SUPPORTS,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,deepseek/deepseek-chat-v3.1,T01,,human,,41497081.0
 SUPPORTS,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,deepseek/deepseek-chat-v3.1,T01,,human,,41612523.0
 SUPPORTS,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,deepseek/deepseek-chat-v3.1,T01,,human,,41892413.0
