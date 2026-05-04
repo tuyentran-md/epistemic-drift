@@ -1,0 +1,4 @@
+model,scale,params_b,H1_entropy_mean_bits,H1_entropy_topics_above_0.3,H2_truth_div_mean_pct,H2_truth_div_topics_above_20,H4_pct_valid_all_8_mean,H4_topics_pct_valid_above_75
+Gemini 3 Pro,frontier,1500.0,0.13730077589762002,2,20.0,3,89.44444444444446,11
+Gemma3 12B,mid,12.0,0.338085735215081,5,27.845511767925558,5,90.55555555555554,11
+Llama 3.2 3B,small,3.0,0.532881955722332,7,41.92939244663382,7,42.22222222222222,1
