@@ -42,11 +42,11 @@ ROOT = Path(__file__).resolve().parent.parent
 PROMPTS_DIR = Path(__file__).resolve().parent / "prompts"
 load_dotenv(ROOT / ".env")
 
-GOOGLE_KEYS = [
-    os.environ.get("GOOGLE_API_KEY"),
-    os.environ.get("GOOGLE_API_KEY_2"),
-    os.environ.get("GOOGLE_API_KEY_3"),
-]
+GOOGLE_KEYS = [os.environ.get("GOOGLE_API_KEY")]
+for i in range(2, 16):  # supports up to GOOGLE_API_KEY_15
+    k = os.environ.get(f"GOOGLE_API_KEY_{i}")
+    if k:
+        GOOGLE_KEYS.append(k)
 GOOGLE_KEYS = [k for k in GOOGLE_KEYS if k]
 
 EUROPEPMC_BASE = "https://www.ebi.ac.uk/europepmc/webservices/rest"

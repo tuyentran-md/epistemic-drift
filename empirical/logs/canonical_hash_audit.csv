@@ -1,6 +1,14 @@
 batch_id,model,j_start_mid,j_mid_end,j_start_end,status
 gemini-3-pro-preview__alt_1__1777903411,gemini-3-pro-preview,0.0,0.925,0.0,FLAGGED
+gemini-3-pro-preview__alt_1__1777936799,gemini-3-pro-preview,0.0,0.925,0.0,FLAGGED
+gemini-3-pro-preview__alt_1__1777939821,gemini-3-pro-preview,0.925,0.925,0.925,OK
+gemini-3-pro-preview__alt_1__1777939947,gemini-3-pro-preview,1.0,0.0,0.0,FLAGGED
+gemini-3-pro-preview__alt_1__1777990800,gemini-3-pro-preview,1.0,1.0,1.0,OK
 gemini-3-pro-preview__alt_2__1777903967,gemini-3-pro-preview,0.0,0.925,0.0,FLAGGED
+gemini-3-pro-preview__alt_2__1777937116,gemini-3-pro-preview,0.0,0.925,0.0,FLAGGED
+gemini-3-pro-preview__alt_2__1777939825,gemini-3-pro-preview,0.925,0.925,0.925,OK
+gemini-3-pro-preview__alt_2__1777940063,gemini-3-pro-preview,0.925,0.925,0.925,OK
+gemini-3-pro-preview__alt_2__1777991145,gemini-3-pro-preview,1.0,1.0,1.0,OK
 gemini-3-pro-preview__primary__1777899729,gemini-3-pro-preview,1.0,1.0,1.0,OK
 gemma3_12b__alt_1__1777916612,gemma3:12b,1.0,1.0,1.0,OK
 gemma3_12b__alt_2__1777920183,gemma3:12b,1.0,1.0,1.0,OK
